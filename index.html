@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Navarro — Desarrollador Web Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">LN</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#skills" class="nav-link">Stack</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link contact-btn">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-greeting fade-up">Hola Fátima, soy</p>
+      <h1 class="hero-name fade-up">Luis Navarro</h1>
+      <h2 class="hero-title fade-up">Desarrollador Web <span class="accent">Full Stack</span></h2>
+      <p class="hero-quote fade-up">Transformo ideas en experiencias digitales que importan.</p>
+      <a href="#contact" class="btn btn-primary fade-up">Hablemos</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">Sobre mí</h2>
+      <div class="about-grid">
+        <div class="about-avatar reveal">
+          <div class="avatar-ring">
+            <div class="avatar-initials">LN</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            Soy Luis Navarro, desarrollador web full stack con <strong>2 años de experiencia</strong> creando aplicaciones web modernas, funcionales y escalables. Me apasiona construir soluciones que combinen un backend robusto con interfaces de usuario intuitivas.
+          </p>
+          <p>
+            Trabajo principalmente con el stack <strong>Laravel + PostgreSQL</strong> en el backend y <strong>JavaScript / HTML / CSS</strong> en el frontend. Disfruto aprender nuevas tecnologías y enfrentar retos que me hagan crecer como profesional.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Proyectos completados</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Tecnologías dominadas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Stack tecnológico</h2>
+      <p class="section-subtitle reveal">Las herramientas con las que construyo día a día</p>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-delay="0">
+          <div class="skill-icon js-icon">JS</div>
+          <span class="skill-name">JavaScript</span>
+        </div>
+        <div class="skill-card reveal" data-delay="80">
+          <div class="skill-icon laravel-icon">L</div>
+          <span class="skill-name">Laravel</span>
+        </div>
+        <div class="skill-card reveal" data-delay="160">
+          <div class="skill-icon php-icon">PHP</div>
+          <span class="skill-name">PHP</span>
+        </div>
+        <div class="skill-card reveal" data-delay="240">
+          <div class="skill-icon pg-icon">PG</div>
+          <span class="skill-name">PostgreSQL</span>
+        </div>
+        <div class="skill-card reveal" data-delay="320">
+          <div class="skill-icon html-icon">HTML</div>
+          <span class="skill-name">HTML5</span>
+        </div>
+        <div class="skill-card reveal" data-delay="400">
+          <div class="skill-icon css-icon">CSS</div>
+          <span class="skill-name">CSS3</span>
+        </div>
+        <div class="skill-card reveal" data-delay="480">
+          <div class="skill-icon git-icon">GIT</div>
+          <span class="skill-name">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Proyectos</h2>
+      <p class="section-subtitle reveal">Algunos trabajos que demuestran lo que puedo hacer</p>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">01</div>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="Ver proyecto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="#" class="icon-link" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Sistema de Gestión de Inventario</h3>
+          <p class="project-description">Aplicación web para gestionar inventario de productos, proveedores y movimientos de stock. Incluye dashboard con métricas en tiempo real y exportación de reportes en PDF.</p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">PHP</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-outline">Ver proyecto</a>
+            <a href="#" class="btn btn-ghost">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">02</div>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="Ver proyecto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="#" class="icon-link" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">API REST para E-commerce</h3>
+          <p class="project-description">API RESTful completa para una tienda online. Autenticación con JWT, gestión de productos, carrito de compras, pedidos y pasarela de pagos integrada.</p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">JWT</span>
+            <span class="tag">REST API</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-outline">Ver proyecto</a>
+            <a href="#" class="btn btn-ghost">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">03</div>
+            <div class="project-links">
+              <a href="#" class="icon-link" aria-label="Ver proyecto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="#" class="icon-link" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Portfolio & Blog Personal</h3>
+          <p class="project-description">Sitio web personal con blog integrado, panel de administración para gestión de contenidos, sistema de comentarios y optimización SEO. Diseño completamente responsive.</p>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-outline">Ver proyecto</a>
+            <a href="#" class="btn btn-ghost">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Contacto</h2>
+      <p class="section-subtitle reveal">¿Tienes un proyecto en mente? Estoy disponible para colaborar.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:luisnvb@gmail.com" class="contact-value">luisnvb@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/Luisnvb" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/Luisnvb</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+          <p class="form-success" id="formSuccess">Mensaje enviado correctamente. Te responderé pronto.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Diseñado y construido por <strong>Luis Navarro</strong> &mdash; 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
